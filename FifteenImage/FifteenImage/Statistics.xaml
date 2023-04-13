@@ -1,0 +1,69 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FifteenImage"
+        xmlns:Wpf="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf" x:Class="FifteenImage.Statistics"
+        mc:Ignorable="d"
+        Title="Statistics" Height="576" Width="653" AllowsTransparency="True" 
+        WindowStyle="None" Background="Transparent" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+
+        <!--Настройка окна, придание ей нестандартной формы с рамкой-->
+        <Border Width="Auto" Height="Auto" x:Name="windowFrame"
+    BorderBrush="#6972de" BorderThickness="10" CornerRadius="0,20,30,40" >
+            <Border.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#CEE3FF" Offset="0.0"/>
+                            <GradientStop Color="#eacffc" Offset="0.5"/>
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <!--Использование StackPanel для вертикального расположения элементов-->
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <TextBlock Text="Статистика ваших игр" Foreground="#3c809a" FontFamily="Comic Sans MS" HorizontalAlignment="Center"
+                           FontSize="30px" Margin="0 0 0 60"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Имя пользователя:" Style="{StaticResource Text_stat}"/>
+                    <TextBlock x:Name="TextName" Text="Имя" Style="{StaticResource Text_stat}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Дата регистрации:" Style="{StaticResource Text_stat}"/>
+                    <TextBlock x:Name="TextDateRegist" Text="Дата" Style="{StaticResource Text_stat}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Всего игр:             " Style="{StaticResource Text_stat}"/>
+                    <TextBlock x:Name="TextTotalGames" Text="Число" Style="{StaticResource Text_stat}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Последняя игра:   " Style="{StaticResource Text_stat}"/>
+                    <TextBlock x:Name="TextPoslGameDate" Text="Дата" Style="{StaticResource Text_stat}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Количество исследуемых состояний:" Style="{StaticResource Text_stat}"/>
+                    <TextBlock x:Name="TextIssled" Text="Число" Style="{StaticResource Text_stat}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Количество ходов:" Style="{StaticResource Text_stat}"/>
+                    <TextBlock x:Name="TextMoves" Text="Число" Style="{StaticResource Text_stat}"/>
+                </StackPanel>
+                
+                <!--Создание графика статистики игр-->
+                <Wpf:CartesianChart Name="CartesianChart1"  Height="169" Zoom="X">
+                </Wpf:CartesianChart>
+
+                <!--Использование StackPanel для горизонтального расположения элементов-->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="Button_Back" Click="Button_Back_Click" Content="Вернуться назад" Style="{StaticResource Button_Main}" Margin="0 0 50 0"/>
+                    <Button x:Name="Button_Exit" Click="Button_Exit_Click" Content="Выйти" Style="{StaticResource Button_Main}" Margin="0 0 50 0"/>
+                    <Image Source="Images/logo.png" Width="140" Height="138"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

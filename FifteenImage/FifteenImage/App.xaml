@@ -1,0 +1,83 @@
+﻿<Application x:Class="FifteenImage.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Avtoriz.xaml">
+    <!--Добавление словаря ресурсов и описание стилей приложения-->
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Стиль для кнопок класса Button_Main-->
+            <Style x:Key="Button_Main" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="10"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Background" Value="#c98de4"/>
+                <Setter Property="Width" Value="150px"/>
+                <Setter Property="Height" Value="30px"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="#9a67b0"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#9e6bb5"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                    </Trigger>
+                    <Trigger Property="IsPressed" Value="True">
+                        <Setter Property="Background" Value="#764a8a"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <!--Стиль для меток класса Label_Menu-->
+            <Style x:Key="Label_Menu" TargetType="Label">
+                <Setter Property="Margin" Value="80 0 0 0"/>
+                <Setter Property="FontFamily" Value="Comic Sans MS"/>
+                <Setter Property="FontSize" Value="16px"/>
+                <Setter Property="Foreground" Value="#7e2687"/>
+            </Style>
+            
+            <!--Стиль для текстовых полей класса TextBox_Menu-->
+            <Style x:Key="TextBox_Menu" TargetType="TextBox">
+                <Setter Property="Width" Value="540px"/>
+                <Setter Property="FontFamily" Value="Comic Sans MS"/>
+                <Setter Property="FontSize" Value="16px"/>
+                <Setter Property="Foreground" Value="#7e2687"/>
+                <Setter Property="Padding" Value="1px"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Cursor" Value="Pen"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            
+            <!--Стиль для пароля класса Pass_menu-->
+            <Style x:Key="Pass_menu" TargetType="PasswordBox">
+                <Setter Property="Width" Value="540px"/>
+                <Setter Property="FontFamily" Value="Comic Sans MS"/>
+                <Setter Property="FontSize" Value="16px"/>
+                <Setter Property="Foreground" Value="#7e2687"/>
+                <Setter Property="Padding" Value="1px"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Cursor" Value="Pen"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <!--Стиль для текстового блока класса Text_stat-->
+            <Style x:Key="Text_stat" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Comic Sans MS"/>
+                <Setter Property="FontSize" Value="15px"/>
+                <Setter Property="Margin" Value="30 0 0 0"/>
+                <Setter Property="Foreground" Value="#7e2687"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+ 

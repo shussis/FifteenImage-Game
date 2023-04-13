@@ -1,0 +1,136 @@
+﻿<Window x:Class="FifteenImage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Puzzle" Height="572" Width="725"
+        AllowsTransparency="True" WindowStyle="None" Background="Transparent"
+        xmlns:c="clr-namespace:FifteenImage" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    
+    <!--Создание стиля кнопки класса BT-->
+    <Window.Resources>
+        <ControlTemplate x:Key="BT"  TargetType="{x:Type Button}">
+            <StackPanel>
+                <Rectangle Stretch="Fill">
+                </Rectangle>
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+            </StackPanel>
+        </ControlTemplate>
+    </Window.Resources>
+    
+    <!--Описание команд-->
+    <Window.CommandBindings>
+        <CommandBinding Command="c:DataCommands.NewGame"
+      Executed="NewCommand_Executed"></CommandBinding>
+        <CommandBinding Command="c:DataCommands.Escape"
+      Executed="ExitCommand_Executed"></CommandBinding>
+        <CommandBinding Command="c:DataCommands.Mix"
+      Executed="MixCommand_Executed"></CommandBinding>
+        <CommandBinding Command="c:DataCommands.Solve"
+      Executed="SolveCommand_Executed"></CommandBinding>
+        <CommandBinding Command="c:DataCommands.ShowSolution"
+      Executed="ShowSolutionCommand_Executed"></CommandBinding>
+    </Window.CommandBindings>
+    
+    <!--Настройка окна, придание ей нестандартной формы с рамкой-->
+    <Border Width="Auto" Height="Auto" Name="windowFrame"
+    BorderBrush="#6972de" BorderThickness="10" CornerRadius="0,20,30,40" >
+        <Border.Background>
+            <LinearGradientBrush>
+                <GradientBrush.GradientStops>
+                    <GradientStopCollection>
+                        <GradientStop Color="#eacffc" Offset="0.0"/>
+                        <GradientStop Color="#CEE3FF" Offset="0.5"/>
+                    </GradientStopCollection>
+                </GradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <!--Расчерчение общей сетки для всего окна-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <!--Создание верхнего меню с функционирующими кнопками, которые используют команды-->
+            <Menu HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="8" 
+                   Margin="0,0,0,25" Background="Transparent">
+                <MenuItem Header='_Файл' >
+                    <MenuItem Header='_Новая игра' Command="c:DataCommands.NewGame"/>
+                    <MenuItem Header='Выход' Command="c:DataCommands.Escape"/>
+                </MenuItem>
+                <MenuItem Header='Игра'>
+                    <MenuItem Header='Перемешать' Command="c:DataCommands.Mix" />
+                    <MenuItem Header='Решение' Command="c:DataCommands.Solve" />
+                    <MenuItem Header='Правила игры' Click="Rules_Click"/>
+                </MenuItem>
+            </Menu>
+            
+            <!--Создание выпадающего списка, из которого можно будет выбрать ифнормацию из бд-->
+            <TextBlock Text="Интересные факты: " Grid.Column="5" Grid.ColumnSpan="2" VerticalAlignment="Bottom" Margin="0 0 0 15" FontFamily="Comic Sans MS" FontSize="15px"/>
+            <ComboBox x:Name="ComboBox" Grid.Column="6" HorizontalAlignment="Right" Width="25px" Height="20" VerticalAlignment="Bottom" Margin="0 0 0 15" Background="#c98de4">
+                <ComboBoxItem Name="Info1" Selected="Info1_Selected">Правила игры</ComboBoxItem>
+                <ComboBoxItem Name="Info2" Selected="Info2_Selected">Про создателя пятнашек</ComboBoxItem>
+                <ComboBoxItem Name="Info3" Selected="Info3_Selected">Пятнашки в информатике</ComboBoxItem>
+                <ComboBoxItem Name="Info4" Selected="Info4_Selected">Новый век</ComboBoxItem>
+            </ComboBox>
+            <Image Source="Images/logo.png" Grid.Column="7" Width="80px"/>
+            
+            <!--Создание полосы прогресса игры, которая будет заполняться по мере решения головоломки-->
+            <StatusBar Grid.Row="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                       Grid.ColumnSpan="8" Margin="0,15,0,0" Background="Transparent">
+                <StatusBarItem>
+                    <Border BorderBrush="#c98de4" BorderThickness="10" CornerRadius="15">
+                        <ProgressBar  Grid.ColumnSpan="5" Grid.Row="7" Height="20"
+                                  Minimum="0" Maximum="16"  Name="progressBar1" Width="300"  />
+                    </Border>
+                </StatusBarItem>
+                <StatusBarItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="ShowSolve" Style="{StaticResource Button_Main}" Visibility="Hidden" Margin="20 0 0 0" Command="c:DataCommands.ShowSolution"
+                       Content="Показать решение" >
+                        </Button>
+                        <Button Name="Button_Stat" Click="Button_Stat_Click" Style="{StaticResource Button_Main}" Margin="20 0 0 0" Content="Показать мою статистику">
+                        </Button>
+                    </StackPanel>
+                </StatusBarItem>
+            </StatusBar>
+
+            <!--Создание текстового блока, в котором будут выводиться интересные факты из бд, а так же рассчёты игры, решённой ии-->
+            <TextBlock x:Name="Tblock" Grid.Row="1" Grid.Column="5" Padding="10"
+                       Grid.ColumnSpan="3" Grid.RowSpan="4" Background="Azure" TextWrapping="WrapWithOverflow" 
+                       FontStretch="UltraCondensed" FontSize="12" Text="Удачной игры!!🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆" FontFamily="Comic Sans MS"  Foreground="#764a8a"></TextBlock>
+            
+            <!--Расчерчение сетки самих квадратиков пятнашек-->
+            <Grid x:Name="grid1" Grid.Column="0" Grid.Row="1" 
+              Grid.ColumnSpan="5" Grid.RowSpan="4" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Label Content="Текущий ход:      0" Grid.Column="2" Grid.Row="5"  HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Grid.ColumnSpan="2" FontFamily="Comic Sans MS"/>
+        </Grid>
+    </Border>
+</Window>

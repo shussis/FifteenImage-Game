@@ -1,0 +1,204 @@
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.Cache
+C:\Users\Denis_And_Anna\Documents\Visual Studio 2013\Projects\WPF\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csprojResolveAssemblyReference.cache
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Users\Den_and_Anna\Documents\Visual Studio 2010\Projects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.Cache
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.exe
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\App.g.cs
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.baml
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+E:\GitProjects\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+E:\GitProjects\FifteenImage\FifteenImage\bin\Debug\FifteenImage.pdb
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+E:\GitProjects\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.Cache
+C:\Projects\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\bin\Debug\FifteenImage.exe.config
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.SuggestedBindingRedirects.cache
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Users\andre\Desktop\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\bin\Debug\FifteenImage.exe.config
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.SuggestedBindingRedirects.cache
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Users\andre\Desktop\В работе\FifteenImage-master\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe.config
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.AssemblyReference.cache
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.cache
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.CoreCompileInputs.cache
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\App.baml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.SuggestedBindingRedirects.cache
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Regist.g.cs
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Regist.baml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Avtoriz.g.cs
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Avtoriz.baml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Npgsql.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Buffers.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Memory.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Json.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Channels.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.ValueTuple.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\Npgsql.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Buffers.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Memory.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Json.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Channels.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\System.ValueTuple.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.CopyComplete
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe.config
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\FifteenImage.exe
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\FifteenImage.pdb
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Npgsql.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Buffers.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Collections.Immutable.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Memory.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Json.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Channels.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.ValueTuple.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\Npgsql.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Buffers.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Collections.Immutable.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Memory.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Text.Json.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Channels.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\System.ValueTuple.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.AssemblyReference.cache
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\App.baml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Avtoriz.g.cs
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.g.cs
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Regist.g.cs
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\App.g.cs
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.cache
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage_MarkupCompile.lref
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Avtoriz.baml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\MainWindow.baml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Regist.baml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.g.resources
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.Properties.Resources.resources
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.GenerateResource.cache
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.CoreCompileInputs.cache
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.csproj.CopyComplete
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.exe
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\FifteenImage.pdb
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Statistics.g.cs
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Statistics.baml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Statistics.g.cs
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\obj\x86\Debug\Statistics.baml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.pdb
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.xml
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Veronika\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.pdb
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.xml
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\USER_SQL\Desktop\FifteenImage\FifteenImage\bin\Debug\LiveCharts.Wpf.xml

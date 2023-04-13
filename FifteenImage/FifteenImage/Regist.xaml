@@ -1,0 +1,41 @@
+﻿<Window x:Class="FifteenImage.Regist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FifteenImage"
+        mc:Ignorable="d"
+        Title="Regist" Height="572" Width="725" AllowsTransparency="True" 
+        WindowStyle="None" Background="Transparent" WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+        <!--Настройка окна, придание ей нестандартной формы с рамкой-->
+        <Border Width="Auto" Height="Auto" Name="windowFrame"
+    BorderBrush="#6972de" BorderThickness="10" CornerRadius="0,20,30,40" >
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#CEE3FF" Offset="0.0"/>
+                            <GradientStop Color="#eacffc" Offset="0.5"/>
+                        </GradientStopCollection>
+                    </GradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <!--Использование StackPanel для вертикального расположения элементов-->
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <TextBlock Text="Регистрация" FontSize="32px" Foreground="#7e2687" FontFamily="Comic Sans MS" HorizontalAlignment="Center" Height="90"/>
+                <Label Style="{StaticResource Label_Menu}">Введите ваше имя</Label>
+                <TextBox x:Name="TextName" Style="{StaticResource TextBox_Menu}" ToolTip="Введите имя"/>
+                <Label Style="{StaticResource Label_Menu}">Введите новый логин</Label>
+                <TextBox x:Name="TextLogin" Style="{StaticResource TextBox_Menu}" ToolTip="Введите логин"/>
+                <Label Style="{StaticResource Label_Menu}">Введите новый пароль</Label>
+                <PasswordBox Name="TextPassword" Style="{StaticResource Pass_menu}" ToolTip="Введите пароль"></PasswordBox>
+                <Button x:Name="Button_Regist" Click="Button_Regist_Click" Style="{StaticResource Button_Main}" Content="Регистрация" Margin="20"/>
+                <Button x:Name="Exit_Button" Click="Exit_Button_Click" Style="{StaticResource Button_Main}" Content="Выйти"></Button>
+            </StackPanel>
+        </Border>
+        <Image Source="Images/logo.png" Margin="545,22,12,417"/>
+    </Grid>
+</Window>
