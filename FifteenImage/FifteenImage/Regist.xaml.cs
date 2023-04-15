@@ -51,8 +51,8 @@ namespace FifteenImage
                     MessageBox.Show("Введите пароль");
                 }
                 com.ExecuteNonQuery();
-                MessageBox.Show("Регистрация успешно завершилась!");
                 Avtoriz.con.Close();
+                MessageBox.Show("Регистрация успешно завершилась!");
                 Avtoriz avt = new Avtoriz();
                 avt.Show();
                 Close();  

@@ -46,8 +46,8 @@ namespace FifteenImage
                 con.Open();
                 //Выбор имени из бд в таблице пользователей
                 //Проверка совпадения логина и пароля для входа
-                com.CommandText = $"SELECT Username FROM Users WHERE Login='{TextLogin.Text}' and Password_='{TextPassword.Password}'";
-                Global.globalusername = Convert.ToString (com.ExecuteScalar());
+                com.CommandText = $"SELECT UserID FROM Users WHERE Login='{TextLogin.Text}' and Password_='{TextPassword.Password}'";
+                Global.globalid = Convert.ToInt32 (com.ExecuteScalar());
                 if (TextLogin.Text == "")
                     {
                     TextLogin.Background = Brushes.IndianRed;

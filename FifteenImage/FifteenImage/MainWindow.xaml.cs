@@ -105,7 +105,7 @@ namespace FifteenImage
             {
                 Avtoriz.con.Open(); 
                 //Обновляем дату пользователя в бд последнего захода в приложение
-                com = new NpgsqlCommand($"UPDATE Users SET last_login_date = CURRENT_DATE WHERE Username = '{Global.globalusername}' ", Avtoriz.con);
+                com = new NpgsqlCommand($"UPDATE Users SET last_login_date = CURRENT_DATE WHERE UserID = '{Global.globalid}' ", Avtoriz.con);
                 com.ExecuteNonQuery();
                 dataAdapter = new NpgsqlDataAdapter(com);
                 Avtoriz.con.Close();
@@ -185,10 +185,10 @@ namespace FifteenImage
             {
                 Avtoriz.con.Open();
                 //Прибавление к записи количества всех игр в бд при запуске игры
-                com = new NpgsqlCommand($"UPDATE Users SET total_games = 1 + total_games WHERE Username = '{Global.globalusername}' ", Avtoriz.con);
+                com = new NpgsqlCommand($"UPDATE Users SET total_games = 1 + total_games WHERE UserID = '{Global.globalid}' ", Avtoriz.con);
                 com.ExecuteNonQuery();
                 //Добавление новой игры в бд
-                com = new NpgsqlCommand($"INSERT INTO Game (userid, username, moves, researched_states) VALUES ((SELECT userid FROM Users WHERE Username = '{Global.globalusername}'),'{Global.globalusername}','{Global.globalmoves}','{Global.globalCountStates}') ", Avtoriz.con);
+                com = new NpgsqlCommand($"INSERT INTO Game (userid, moves, researched_states) VALUES ('{Global.globalid}','{Global.globalmoves}','{Global.globalCountStates}') ", Avtoriz.con);
                 com.ExecuteNonQuery();
                 dataAdapter = new NpgsqlDataAdapter(com);
                 Avtoriz.con.Close();

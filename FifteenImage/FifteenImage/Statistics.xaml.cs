@@ -13,11 +13,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Npgsql;
-using LiveCharts;
-using LiveCharts.Wpf;
 using System.Data;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
 
 namespace FifteenImage
 {
@@ -27,10 +23,6 @@ namespace FifteenImage
     public partial class Statistics : Window
     {
         static public NpgsqlCommand com = null;
-        static public NpgsqlDataAdapter dataAdapter = null;
-        //static public DataSet dataSet = null;
-        static public DataTable table = null;
-        public string username1;
         public Statistics()
         {
             InitializeComponent();
@@ -57,50 +49,15 @@ namespace FifteenImage
             try
             {
                 Avtoriz.con.Open();
-                username1 = Global.globalusername;
                 //Выбор и вставка значений пользователя и его игр для личной статистики
-                TextName.Text = username1;
-                com = new NpgsqlCommand($"SELECT date_registration FROM Users WHERE Username = '{username1}'", Avtoriz.con);
+                com = new NpgsqlCommand($"SELECT username FROM Users WHERE UserId = '{Global.globalid}'", Avtoriz.con);
+                TextName.Text = Convert.ToString(com.ExecuteScalar());
+                com = new NpgsqlCommand($"SELECT date_registration FROM Users WHERE UserId = '{Global.globalid}'", Avtoriz.con);
                 TextDateRegist .Text = Convert.ToString(com.ExecuteScalar());
-                com = new NpgsqlCommand($"SELECT total_games FROM Users WHERE Username = '{username1}'", Avtoriz.con);
+                com = new NpgsqlCommand($"SELECT total_games FROM Users WHERE UserId = '{Global.globalid}'", Avtoriz.con);
                 TextTotalGames.Text = Convert.ToString(com.ExecuteScalar());
-                com = new NpgsqlCommand($"SELECT date_game FROM Game WHERE Username = '{username1}' ORDER BY date_game DESC LIMIT 1", Avtoriz.con);
+                com = new NpgsqlCommand($"SELECT date_game FROM Game WHERE UserId = '{Global.globalid}' ORDER BY date_game DESC LIMIT 1", Avtoriz.con);
                 TextPoslGameDate.Text = Convert.ToString(com.ExecuteScalar());
-                com = new NpgsqlCommand($"SELECT researched_states FROM Game WHERE Username = '{username1}' ORDER BY date_game DESC LIMIT 1", Avtoriz.con);
-                TextIssled.Text = Convert.ToString(com.ExecuteScalar());
-                com = new NpgsqlCommand($"SELECT moves FROM Game WHERE Username = '{username1}' ORDER BY date_game DESC LIMIT 1", Avtoriz.con);
-                TextMoves.Text = Convert.ToString(com.ExecuteScalar());
-                com = new NpgsqlCommand($"SELECT moves FROM Game WHERE Username = '{username1}'", Avtoriz.con);
-                dataAdapter = new NpgsqlDataAdapter(com);
-                //dataSet = new DataSet();                
-                CartesianChart1.LegendLocation = LegendLocation.Bottom;
-
-                //Построение графика статистики
-                //dataSet.Tables["Game"]?.Clear();
-                //if (dataSet.Tables["Game"] != null)
-                //    dataSet.Tables["Game"].Clear();
-                DataSet dataSet = new DataSet();
-                dataAdapter.Fill(dataSet, "Game");
-                table = dataSet.Tables["Game"];
-                SeriesCollection series = new SeriesCollection();
-                ChartValues<int> moveValues = new ChartValues<int>();
-                List<string> dates = new List<string>();
-                foreach (DataRow row in table.Rows)
-                {
-                    moveValues.Add(Convert.ToInt32(row["moves"]));
-                    dates.Add(Convert.ToString(row["date_game"]));
-                }
-                CartesianChart1.AxisX.Clear();
-                CartesianChart1.AxisX.Add(new Axis()
-                {
-                    Name = "Даты игр",
-                    Labels = dates
-                });
-                LineSeries line = new LineSeries();
-                line.Title = "'{username1}'";
-                line.Values = moveValues;
-                series.Add(line);
-                CartesianChart1.Series = series;
                 com.ExecuteNonQuery();
                 Avtoriz.con.Close();
             }

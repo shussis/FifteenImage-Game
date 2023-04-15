@@ -405,8 +405,7 @@ namespace FifteenImage
                             Environment.NewLine + "\nКол-во шагов для сбора матрицы\t: " +
                             (ArResult.Length ).ToString(CultureInfo.InvariantCulture));
                     Global.globalCountStates = Convert.ToInt32(CountStates);
-                    //Global.globalCountStates = Convert.ToInt32(CountStates);
-                    //Global.globalmoves = Convert.ToInt32(ArResult.Length);
+                    Global.globalmoves = Convert.ToInt32(ArResult.Length);
                 }
                     else
                         Progressing("И что я должен искать ?");
