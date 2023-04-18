@@ -34,7 +34,7 @@ namespace FifteenImage
                 Avtoriz.con.Open();
                 //Добавление нового пользователя в бд
                 com = new NpgsqlCommand($"INSERT INTO Users (username, login, password_) VALUES ('{TextName.Text}', " +
-                    $"'{TextLogin.Text}' '{TextPassword.Password}')", Avtoriz.con);
+                    $"'{TextLogin.Text}', '{TextPassword.Password}')", Avtoriz.con);
                 if (TextName.Text == "")
                 {
                     TextLogin.Background = Brushes.IndianRed;
